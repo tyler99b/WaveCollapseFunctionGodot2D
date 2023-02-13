@@ -1,0 +1,252 @@
+{
+  "t0": {
+    "atlasX": 1,
+    "atlasY": 1,
+    "posX": 1,
+    "negX": -1,
+    "posY": -1,
+    "negY": 4,
+    "avoid": {
+      "posX": [],
+      "negX": ["t2","t5","t8"],
+      "posY": [
+        "t6",
+        "t7",
+        "t8","t12","t13","t14","t15"
+      ],
+      "negY": []
+    }
+  },
+  "t1": {
+    "atlasX": 2,
+    "atlasY": 1,
+    "posX": 1,
+    "negX": 1,
+    "posY": -1,
+    "negY": 5,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": [
+        "t6",
+        "t7",
+        "t8","t12","t13","t14","t15"
+      ],
+      "negY": []
+    }
+  },
+  "t2": {
+    "atlasX": 3,
+    "atlasY": 1,
+    "posX": -1,
+    "negX": 1,
+    "posY": -1,
+    "negY": 6,
+    "avoid": {
+      "posX": ["t0","t3","t6"],
+      "negX": [],
+      "posY": [
+        "t6",
+        "t7",
+        "t8","t12","t13","t14","t15"
+      ],
+      "negY": []
+    }
+  },
+  "t3": {
+    "atlasX": 1,
+    "atlasY": 6,
+    "posX": 2,
+    "negX": -1,
+    "posY": 4,
+    "negY": 4,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": [],
+      "negY": []
+    }
+  },
+  "t4": {
+    "atlasX": 2,
+    "atlasY": 6,
+    "posX": 2,
+    "negX": 2,
+    "posY": 5,
+    "negY": 5,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": [],
+      "negY": []
+    }
+  },
+  "t5": {
+    "atlasX": 3,
+    "atlasY": 6,
+    "posX": -1,
+    "negX": 2,
+    "posY": 6,
+    "negY": 6,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": [],
+      "negY": []
+    }
+  },
+  "t6": {
+    "atlasX": 1,
+    "atlasY": 7,
+    "posX": 3,
+    "negX": -1,
+    "posY": 4,
+    "negY": -1,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": [],
+      "negY": []
+    }
+  },
+  "t7": {
+    "atlasX": 2,
+    "atlasY": 7,
+    "posX": 3,
+    "negX": 3,
+    "posY": 5,
+    "negY": -1,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": [],
+      "negY": []
+    }
+  },
+  "t8": {
+    "atlasX": 3,
+    "atlasY": 7,
+    "posX": -1,
+    "negX": 3,
+    "posY": 6,
+    "negY": -1,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": [],
+      "negY": []
+    }
+  },
+  "t9": {
+    "atlasX": 12,
+    "atlasY": 3,
+    "posX": -1,
+    "negX": -1,
+    "posY": 8,
+    "negY": -1,
+    "avoid": {
+      "posX": ["t9"],
+      "negX": [],
+      "posY": [],
+      "negY": []
+    }
+  },
+  "t10": {
+    "atlasX": 12,
+    "atlasY": 2,
+    "posX": -1,
+    "negX": -1,
+    "posY": 8,
+    "negY": 8,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": [],
+      "negY": []
+    }
+  },
+  "t11": {
+    "atlasX": 12,
+    "atlasY": 1,
+    "posX": -1,
+    "negX": -1,
+    "posY": 8,
+    "negY": 8,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": [],
+      "negY": []
+    }
+  },
+  "t12": {
+    "atlasX": 12,
+    "atlasY": 0,
+    "posX": 9,
+    "negX": 9,
+    "posY": -1,
+    "negY": 8,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": ["t6","t7","t8","t9","t12","t13","t14","t15"],
+      "negY": []
+    }
+  },
+  "t13": {
+    "atlasX": 13,
+    "atlasY": 0,
+    "posX": 9,
+    "negX": 9,
+    "posY": -1,
+    "negY": -1,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": ["t6","t7","t8","t9","t12","t13","t14","t15"],
+      "negY": []
+    }
+  },
+  "t14": {
+    "atlasX": 14,
+    "atlasY": 0,
+    "posX": 9,
+    "negX": -1,
+    "posY": -1,
+    "negY": -1,
+    "avoid": {
+      "posX": ["t15"],
+      "negX": [],
+      "posY": ["t6","t7","t8","t9","t12","t13","t14","t15"],
+      "negY": []
+    }
+  },
+  "t15": {
+    "atlasX": 15,
+    "atlasY": 0,
+    "posX": -1,
+    "negX": 9,
+    "posY": -1,
+    "negY": -1,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": ["t6","t7","t8","t9","t12","t13","t14","t15"],
+      "negY": []
+    }
+  },
+  "t16": {
+    "atlasX": 16,
+    "atlasY": 7,
+    "posX": -1,
+    "negX": -1,
+    "posY": -1,
+    "negY": -1,
+    "avoid": {
+      "posX": [],
+      "negX": [],
+      "posY": ["t9"],
+      "negY": []
+    }
+  }
+}
